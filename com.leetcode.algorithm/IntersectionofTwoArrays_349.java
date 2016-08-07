@@ -29,7 +29,7 @@ public class Solution {
 
 /*
  Solution 2
- a. This complexity of this solution is n + nlogn(sorting)
+ a. This complexity of this solution is n + nlogn(sorting) = nlogn
  b. This solution takes advantage of using java.util.Set and using the Arrays.sort(),
   which I assume that it is using merge sort behind. After the two arrays are sorted,
   the problem seems to be so much easier.
