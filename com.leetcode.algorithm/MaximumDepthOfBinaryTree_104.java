@@ -4,6 +4,11 @@ package com.leetcode.algorithm;
  * Created by xiye on 7/24/16.
  */
 public class MaximumDepthOfBinaryTree_104 {
+
+    class  TreeNode {
+        TreeNode left;
+        TreeNode right;
+    }
     public int maxDepth(TreeNode root) {
         if(root==null)return 0;
         else if(root.left!=null&&root.right!=null){
